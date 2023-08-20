@@ -333,7 +333,39 @@ form {
    display: block;
    border-radius: 50%;
    line-height: 5rem;
-
    font-size: 2rem;
    cursor: pointer;
+}
+
+/* media */
+@media (max-width:991px) {
+   form {
+      width: 100%;
+   }
+}
+
+@media (max-width:450px) {
+   .about__img img {
+      width: 30rem;
+   }
+
+   .about__content h2 {
+      font-size: clamp(1.2rem, 1vw + 2rem, 2.2rem);
+      padding: 2rem;
+   }
+
+   .about__button {
+      padding: 0.8rem 1rem;
+   }
+}
+
+@media (max-width:350px) {
+   .about__button {
+      padding: 0.5rem 0.8rem;
+      font-size: 1rem;
+   }
+
+   .about__img img {
+      width: 20rem;
+   }
 }
