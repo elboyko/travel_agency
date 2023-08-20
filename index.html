@@ -6,10 +6,14 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./assets/style/style.css">
+   <script src="https://kit.fontawesome.com/da2cf29812.js" crossorigin="anonymous"></script>
    <title>Travel Landing Page</title>
 </head>
 
 <body>
+   <div class="go-top">
+      <a href="#"><i class="fas fa-arrow-up" style="color:#fff;"></i></a>
+   </div>
    <!-- header section start -->
    <header>
       <nav>
@@ -133,9 +137,29 @@
    </section>
    <!-- gallery section  end  -->
 
+   <!-- contacts section start -->
+   <section class="contacts" id="contacts">
+      <h2 class="contacts__title"><span>Contact</span> Us</h2>
+      <form action="#">
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="name" required autocomplete="off" placeholder="Enter your name">
 
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email" required autocomplete="off" placeholder="Enter your e-mail">
 
+         <label for="message">Message:</label>
+         <textarea name="message" id="message" rows="10" required></textarea>
 
+         <input type="submit" value="submit">
+      </form>
+   </section>
+   <!-- contacts section end -->
+
+   <!-- footer section start -->
+   <section class="footer" id="footer">
+      <p>&copy; 2023 website. All rights reserved.</p>
+   </section>
+   <!-- footer section end -->
 
 </body>
 
